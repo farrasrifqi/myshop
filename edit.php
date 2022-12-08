@@ -82,15 +82,15 @@ else {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Shop</title>
+    <title>My Data</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
 <body>
     <div class="container my-5">
-        <h2>New Client</h2>
-
+        <h2 class="text-primary">Edit Data</h2>
+        <br>
         <?php
         if (!empty($errorMessage)) {
             echo "
@@ -146,10 +146,10 @@ else {
             ?>
             <div class="row mb-3">
                 <div class="offset-sm-3 col-sm-3 d-grid">
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" class="btn btn-success">Submit</button>
                 </div>
                 <div class="col-sm-3 d-grid">
-                    <a class="btn btn-outline-primary" href="/myshop/index.php" role="button">Cancel</a>
+                    <a class="btn btn-outline-success" href="/myshop/index.php" role="button">Cancel</a>
                 </div>
             </div>
         </form>
